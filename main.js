@@ -32,7 +32,7 @@
 //uy ishi
 //5
 
-let minutt = Number(prompt("Kun boshidan boshlab qancha minut o'tdi"));
+let minutt = Number(prompt("Kun boshidan boshlab qancha minut o'tganini yozsangiz secundga hisob lab beraman"));
 if (minutt > 0 && minutt <= 999) {
     let sekundlar = minutt * 60;
     alert("Kun boshidan boshlab to'liq " + sekundlar + "sekund o'tdi");
@@ -43,7 +43,7 @@ if (minutt > 0 && minutt <= 999) {
 
 //6
 
-let minuts = Number(prompt("Kun boshidan boshlab qancha soat o'tdi"));
+let minuts = Number(prompt("Kun boshidan boshlab qancha soat o'tgani yozing secunga aylantiramaiz"));
 if (minuts > 0 && minuts <= 999) {
     let sekundlarr = minuts * 3600;
     alert("Kun boshidan boshlab to'liq " + sekundlarr + "secund o'tdi");
